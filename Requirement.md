@@ -1,4 +1,4 @@
-#Project Guidelines
+# Project Guidelines
 
 The project must include these components of taught during this course:
 
@@ -16,7 +16,7 @@ Projects must have data, i.e. if there is no records exist in the database, then
 
 Use as much as functions to keep program simple and more understandable. (names must be meaningful)
 
-#Submission Guidelines:
+# Submission Guidelines:
 Per group only one submission is sufficient.
 All python modules must be placed in a single directory and that can be zipped and submitted. This zip file must also contain one file (word or pdf) that explain the contribution of both the students, i.e. which parts are modules are developed by which student. However, in the presentation both parts must be presented by either of the students upon questioning. 
 
@@ -24,7 +24,7 @@ All python modules must be placed in a single directory and that can be zipped a
 All the code will be tested and evaluated on the Python native IDLE, so make sure before submitted that it is working, codes with error will negatively effect towards final grade.
 
 
-#Grading:
+# Grading:
 Nice and easy approach is the best approach.
 All identifiers must have meaningful names. Style and Python Requirements must be met. 
 Keep your GUI simple and eye pleasing (avoid using too bright colors).
