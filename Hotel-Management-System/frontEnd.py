@@ -1,3 +1,8 @@
+from tkinter import *
+from tkinter import messagebox
+from tkcalendar import DateEntry
+from customer import Customer
+import sqlite3
 
 def open_room_selection_window():
     # Function to open the room selection window
@@ -24,11 +29,7 @@ def book_room(room):
     booking_message = f"You have booked {room} for\nName: {customer_name}\nDate: {customer_from_date}"
     Label(booking_confirmation_window, text=booking_message).pack(pady=10)
 
-from tkinter import *
-from tkinter import messagebox
-from tkcalendar import DateEntry
-from customer import Customer
-import sqlite3
+
 
 conn = sqlite3.connect('guest_data_base.db')
 
